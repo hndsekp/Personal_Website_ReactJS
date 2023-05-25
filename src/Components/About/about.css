@@ -1,0 +1,83 @@
+.about {
+  background-color:var(--primary-color);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abautTypo {
+  flex-direction: column;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  color: var(--text-color);
+  font-size: 8rem;
+  top: 2rem;
+  right: 20rem;
+  line-height: 5rem;
+  position: relative;
+  display: flex;
+  opacity: 20%;
+  text-transform: uppercase;
+  pointer-events: none;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.aboutContent {
+  color: var(--text-color);
+  right: 10rem;
+  left: 20rem;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.aboutInfo {
+  color: var(--text-color);
+  top: 2.1rem;
+  font-size: 2.5rem;
+  width: 85%;
+  font-weight: 900;
+  line-height: 2.8rem;
+  position: relative;
+  z-index: 2;
+}
+
+.aboutButton {
+  color: var(--text-color);
+  text-decoration: underline;
+  font-weight: bold;
+  position: relative;
+  top: 2rem;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+/* breakpoints */
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+  .abautTypo {
+    flex-direction: column;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    color: var(--text-color);
+    font-size: 4rem;
+    top: 2rem;
+    line-height: 5rem;
+    position: relative;
+    display: flex;
+    opacity: 20%;
+    text-transform: uppercase;
+    pointer-events: none;
+    z-index: 1;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 350px) {
+}

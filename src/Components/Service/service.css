@@ -1,0 +1,75 @@
+#service{
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.serveTypo{
+  transform: translateX(-35rem);
+  position: relative;
+  bottom: 4rem;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight:bold;
+  font-style: italic;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  line-height: 4rem;
+}
+
+.outlineTypo{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px ;
+}
+
+.serveStack{
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.serveTechStack{
+  display: flex;
+  position: relative;
+  top: 2rem;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.serveTechStack span{
+  border: 1px solid var(--text-color);
+  padding: 0 1rem;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+
+.serveTechStack span:hover{
+  border: 1px solid var(--text-color);
+  padding: 0 1rem;
+  border-radius: 25px;
+  color: var(--primary-color);
+  background-color: var(--text-color);
+}
+
+/* breakpoints */
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+}
+@media screen and (max-width: 350px) {
+}
