@@ -5,8 +5,8 @@ import "./hero.css";
 
 const Hero = () => {
   const { scrollYProgress } = useScroll();
-  const right = useTransform(scrollYProgress, [0, 1], [0, 800]);
-  const left = useTransform(scrollYProgress, [0, 1], [0, -800]);
+  const right = useTransform(scrollYProgress, [0, 1], [0, -800]);
+  const left = useTransform(scrollYProgress, [0, 1], [0, 800]);
   return (
     <section className="hero" id="hero">
       <div className="containerHero">
@@ -20,7 +20,7 @@ const Hero = () => {
                 delay: 2,
               },
             }}
-            style={{ x: right }}
+            style={{ x: left }}
             className="textFilledH1"
           >
             Software Engineer
@@ -34,7 +34,7 @@ const Hero = () => {
                 delay: 2,
               },
             }}
-            style={{ x: right }}
+            style={{ x: left }}
             className="textOutlineH1"
           >
             Software Engineer
@@ -50,7 +50,7 @@ const Hero = () => {
                 delay: 2,
               },
             }}
-            style={{ x: left }}
+            style={{ x: right }}
             className="textFilled"
           >
             Javascript Tech Stack
@@ -64,7 +64,7 @@ const Hero = () => {
                 delay: 2,
               },
             }}
-            style={{ x: left }}
+            style={{ x: right }}
             className="textOutline"
           >
             Javascript Tech Stack

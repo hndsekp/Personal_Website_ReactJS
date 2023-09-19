@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 const Service = () => {
   const {scrollYProgress} = useScroll()
   const frontend = useTransform(scrollYProgress, [0,1],[0,600])
-  const backend = useTransform(scrollYProgress, [0,1],[0,600])
+  const backend = useTransform(scrollYProgress, [0,200],[0,-600])
   const fullstack = useTransform(scrollYProgress, [0,1],[0,600])
   return (
     <section id="service">
@@ -19,7 +19,7 @@ const Service = () => {
           {" "}
           <span className="outlineTypo">Backend</span> Developer - Backend{" "}
           <span className="outlineTypo">Developer</span> -{" "}
-          <span className="outlineTypo">Backend</span> Developer -
+          <span className="outlineTypo">Backend</span> Developer - Backend
         </motion.span>
         <motion.span style={{x:fullstack}}>
           Fullstack <span className="outlineTypo">Developer</span> -{" "}

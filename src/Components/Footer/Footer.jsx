@@ -16,7 +16,7 @@ const Footer = () => {
       <a href="https://www.instagram.com/hndsekp78/">Instagram</a>
       <a href="https://github.com/AlhendesEkaP">Github</a>
       <a href="">LinkedIn</a>
-      <a href="">Tiktok</a>
+      <a href="https://www.tiktok.com/@aksaaa78">Tiktok</a>
     </div>
   </section>
 }
