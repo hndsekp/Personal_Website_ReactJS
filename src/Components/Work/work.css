@@ -127,7 +127,7 @@
   position: relative;
   top: 8.3rem;
   left: 3.5rem;
-  padding: 0 1; 
+  padding: 0rem 0rem; 
   font-weight: bold;
 }
 
@@ -135,12 +135,12 @@
   display: flex;
   position: relative;
   right: 0.5rem;
-  bottom: 0.3rem;
 }
 
 .workLinked i{
   display: flex;
   position: relative;
+
 }
 
 .workLinked:hover{

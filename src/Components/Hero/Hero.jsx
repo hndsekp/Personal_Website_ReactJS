@@ -5,7 +5,7 @@ import "./hero.css";
 
 const Hero = () => {
   const { scrollYProgress } = useScroll();
-  const right = useTransform(scrollYProgress, [0, 1], [0, -800]);
+  const right = useTransform(scrollYProgress, [0, 1], [90, -800]);
   const left = useTransform(scrollYProgress, [0, 1], [0, 800]);
   return (
     <section className="hero" id="hero">
@@ -53,7 +53,7 @@ const Hero = () => {
             style={{ x: right }}
             className="textFilled"
           >
-            Javascript Tech Stack
+            Full Stack Developer
           </motion.h1>
           <motion.h1
             initial={{ x: 1800 }}
@@ -67,7 +67,7 @@ const Hero = () => {
             style={{ x: right }}
             className="textOutline"
           >
-            Javascript Tech Stack
+            Full Stack Developer
           </motion.h1>
         </div>
         <div className="heroImage">

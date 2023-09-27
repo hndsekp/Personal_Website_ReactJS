@@ -3,25 +3,25 @@ import "./service.css";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 const Service = () => {
-  const {scrollYProgress} = useScroll()
-  const frontend = useTransform(scrollYProgress, [0,1],[0,600])
-  const backend = useTransform(scrollYProgress, [0,200],[0,-600])
-  const fullstack = useTransform(scrollYProgress, [0,1],[0,600])
+  const { scrollYProgress } = useScroll();
+  const frontend = useTransform(scrollYProgress, [0, 1], [0, 600]);
+  const backend = useTransform(scrollYProgress, [0, 190], [600, 0]);
+  const fullstack = useTransform(scrollYProgress, [0, 2], [0, 600]);
   return (
     <section id="service">
       <div className="serveTypo">
-        <motion.span style={{x:frontend}}>
+        <motion.span style={{ x: frontend }}>
           Frontend <span className="outlineTypo">Developer</span> -{" "}
           <span className="outlineTypo">Frontend</span> Developer - Frontend{" "}
           <span className="outlineTypo">Developer</span> -{" "}
         </motion.span>
-        <motion.span style={{x:backend}}>
+        <motion.span style={{ x: backend }}>
           {" "}
           <span className="outlineTypo">Backend</span> Developer - Backend{" "}
           <span className="outlineTypo">Developer</span> -{" "}
           <span className="outlineTypo">Backend</span> Developer - Backend
         </motion.span>
-        <motion.span style={{x:fullstack}}>
+        <motion.span style={{ x: fullstack }}>
           Fullstack <span className="outlineTypo">Developer</span> -{" "}
           <span className="outlineTypo">Fullstack</span> Developer - Fullstack{" "}
           <span className="outlineTypo">Developer</span> -{" "}
@@ -36,6 +36,8 @@ const Service = () => {
           <span>Java</span>
         </div>
         <div className="serveTechStack">
+          <span>Flutter</span>
+          <span>Postgre</span>
           <span>MySQL</span>
           <span>PHP</span>
         </div>
