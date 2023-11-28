@@ -1,6 +1,6 @@
 import React from "react";
 import "./work.css";
-import picture from "../../assets/gojokunnn.jpg";
+import picture from "../../assets/roonl1.jpg";
 
 const Work = () => {
   return (
@@ -19,8 +19,8 @@ const Work = () => {
           <div className="workText">
             <span className="workNumber">01.</span>
             <div className="workTitle">
-              <span>Segera.....</span>
-              <span>Segera.....</span>
+              <span>Ragnarok Online</span>
+              <span>Web Information</span>
             </div>
           </div>
         </div>

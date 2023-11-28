@@ -90,6 +90,12 @@
     position: relative;
     z-index: 2;
   }
+
+  
+.outlineTypo{
+  -webkit-text-fill-color: transparent;
+
+}
 }
 @media screen and (max-width: 350px) {
 }

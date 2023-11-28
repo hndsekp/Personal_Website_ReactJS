@@ -118,15 +118,15 @@
 
 .workLinked{
   color: var(--text-color);
-  font-size: 1rem;
+  font-size: 1.5rem;
   display: flex;
-  width: 70%;
+  width: 75%;
   border-bottom: 1px solid var(--text-color);
   justify-content: space-between;
   transition: all 0.3s;
   position: relative;
-  top: 8.3rem;
-  left: 3.5rem;
+  top: 8.4rem;
+  left: 4.2rem;
   padding: 0rem 0rem; 
   font-weight: bold;
 }
@@ -134,13 +134,14 @@
 .workLinked span{
   display: flex;
   position: relative;
-  right: 0.5rem;
+  right: 1rem;
 }
 
 .workLinked i{
   display: flex;
   position: relative;
-
+  margin-top: 7px;
+  margin-left: 10px;
 }
 
 .workLinked:hover{

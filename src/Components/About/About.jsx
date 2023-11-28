@@ -11,8 +11,8 @@ const About = () => {
       </div>
       <div className="aboutContent">
         <h1 className="aboutInfo">
-          Hello! I am Alhendes Eka P, I am passionate about developing
-          applications both user interface and database management system.
+          Hello! I am Alhendes Eka P, I am passionate about <span className="outlineTypo">developing
+          applications</span> both <span className="outlineTypo">user interface</span> and database management <span className="outlineTypo">system</span>.
         </h1>
         <a className="aboutButton" href="#">
           Read More About Me <i class="uil uil-arrow-up-right"></i>
